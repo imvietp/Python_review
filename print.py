@@ -10,3 +10,9 @@ print(3200 + 1000)
 print(3200 - 1000)
 print(3200 * 1000)
 print(3200 / 1000)
+
+# Calculate operator and print but add
+print("3200 + 1000 = ", 3200 + 1000)
+print("3200 - 1000 = ", 3200 - 1000)
+print("3200 * 1000 = ", 3200 * 1000)
+print("3200 / 1000 = ", 3200 / 1000)
