@@ -24,3 +24,8 @@ print(first_name + " " + last_name)
 # Concatenate string and number
 age = 22
 print("Age: " + str(age))
+
+# Calculate Area of circle and concatenate string and number
+pi_number = 3.14
+radius_number = 2
+print("Area = " + str(radius_number * radius_number * pi_number))
