@@ -16,7 +16,11 @@ print(string_var)
 boolean_var = True
 print(boolean_var)
 
-# Conconcatenate strings
+# Concatenate strings
 first_name = "Pham"
 last_name = "Viet"
 print(first_name + " " + last_name)
+
+# Concatenate string and number
+age = 22
+print("Age: " + str(age))
