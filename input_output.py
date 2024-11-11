@@ -24,3 +24,9 @@ print("A + B = " + str(number_1 + number_2))
 print("A - B = " + str(number_1 - number_2))
 print("A * B = " + str(number_1 * number_2))
 print("A / B = " + str(number_1 / number_2))
+
+# Swapping number
+temp = number_1
+number_1 = number_2
+number_2 = temp
+print("After swapping: number_1 = " + str(number_1) + " number_2 = " + str(number_2))
