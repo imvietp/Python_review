@@ -91,11 +91,12 @@ for i in range(0, n):
     list_array.append(int(input("Nhap cac phan tu: ")))
 
 answer = []
-for j in list_array:
-    if j % 5 == 0:
-        answer.append(j)
-    
-    if(len(list_array) == 0):
-        answer = 0
 
+if len(list_array) == 0:
+    answer = [0]
+else:
+    for j in list_array:
+        if j % 5 == 0:
+            answer.append(j)
+            
 print(answer)
