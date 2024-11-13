@@ -1,4 +1,4 @@
-'''
+
 # Returns the smallest number in lst on the screen.
 array = []
 n = int(input('Enter how many elements you want: '))
@@ -67,7 +67,7 @@ for i in range(len(array_list_sort_ascending)):
             
 
 print(array_list_sort_ascending)
-'''
+
 
 # a list containing all the odd elements of list lst on the screen
 lst_odd = []
