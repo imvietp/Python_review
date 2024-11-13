@@ -62,7 +62,7 @@ for i in s:
     if i == 'y':
         continue
     print("Current character use 'continue':", i)
-'''
+
 
 # Takes an integer a from user and displays products of a and numbers from 1 to 7 on the terminal.
 a = int(input())
@@ -74,3 +74,20 @@ while j <= 7:
     j = j + 1
     
     #print(j)
+'''
+
+# Add 2 integers and classification of even and odd numbers.
+number_one = int(input())
+number_two = int(input())
+
+count_odd = 0
+count_even = 0
+
+for i in range(number_one, number_two + 1):
+    if (i % 2 != 0):
+        count_odd = count_odd + 1
+    else:
+        count_even = count_even + 1
+
+print("Number of odd numbers:", count_odd)
+print("Number of even numbers:", count_even)
