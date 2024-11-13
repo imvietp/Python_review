@@ -32,24 +32,40 @@ for j in array_list:
 print(sum)
 '''
 
-# Sort elements in array
-array_list_sort = []
+# Sort elements in array (Descending order)
+array_list_sort_descending = []
 number_n = int(input("The number of elements in array are: "))
 
 for v in range(0, number_n):
     x = int(input("Type the numbers into array: "))
-    array_list_sort.append(x)
+    array_list_sort_descending.append(x)
 
-for i in range(len(array_list_sort)):
-    for j in range(len(array_list_sort) - i - 1):
-        if (array_list_sort[j] < array_list_sort[j + 1]):
-            temp = array_list_sort[j]
-            array_list_sort[j] = array_list_sort[j + 1]
-            array_list_sort[j + 1] = temp
+for i in range(len(array_list_sort_descending)):
+    for j in range(len(array_list_sort_descending) - i - 1):
+        if (array_list_sort_descending[j] < array_list_sort_descending[j + 1]):
+            temp = array_list_sort_descending[j]
+            array_list_sort_descending[j] = array_list_sort_descending[j + 1]
+            array_list_sort_descending[j + 1] = temp
             
 
-print(array_list_sort)
+print(array_list_sort_descending)
    
+# Sort elements in array (Ascending order)
+array_list_sort_ascending = []
+number_n = int(input("The number of elements in array are: "))
 
+for v in range(0, number_n):
+    x = int(input("Type the numbers into array: "))
+    array_list_sort_ascending.append(x)
+
+for i in range(len(array_list_sort_ascending)):
+    for j in range(len(array_list_sort_ascending) - i - 1):
+        if (array_list_sort_ascending[j] > array_list_sort_ascending[j + 1]):
+            temp = array_list_sort_ascending[j]
+            array_list_sort_ascending[j] = array_list_sort_ascending[j + 1]
+            array_list_sort_ascending[j + 1] = temp
+            
+
+print(array_list_sort_ascending)
 
            
