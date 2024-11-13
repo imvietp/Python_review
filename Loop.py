@@ -23,7 +23,7 @@ while j <= m:
     print(total_while)
 
 print(total_while)
-'''
+
 
 # Two integers a and b from the user and displays the sum of odd numbers between a and b on the terminal
 ## For loop
@@ -47,3 +47,18 @@ while a <= b:
         total_3 += a
     a = a + 1
 print(total_3)
+'''
+
+# Takes a string s from the keyboard and displays characters which are not 'y' in string s on the terminal
+## First way
+print("Type any string: ")
+s = input()
+for i in s:
+    if i != 'y':
+        print("Current character normal way: ", i)
+
+## Second way: use 'continue'
+for i in s:
+    if i == 'y':
+        continue
+    print("Current character use 'continue':", i)
