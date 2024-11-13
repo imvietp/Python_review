@@ -1,5 +1,5 @@
 # Basic operator 
-
+'''
 print("Number 1 = ")
 number_1 = int(input())
 print("Number 2 = ")
@@ -51,3 +51,19 @@ Total *= number_4
 print("Total = " + str(Total)) # 2
 Total /= number_4
 print("Total = " + str(Total)) # 1
+
+
+# in and not in
+print("Type any word: ")
+word = input()
+print('H' in word)
+
+'''
+
+# is and is not
+print("Number 5 = ")
+number_5 = int(input())
+print("Number 6 = ")
+number_6 = int(input())
+print("Number 5 equal Number 6:", number_5 is number_6)
+print("Number 5 not equal Number 6:", number_5 is not number_6)
