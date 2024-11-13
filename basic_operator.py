@@ -67,3 +67,18 @@ print("Number 6 = ")
 number_6 = int(input())
 print("Number 5 equal Number 6:", number_5 is number_6)
 print("Number 5 not equal Number 6:", number_5 is not number_6)
+
+
+# Logical operator 
+print("Number X = ")
+number_x = int(input())
+print("Number Y = ")
+number_y = int(input())
+print("Number Z = ")
+number_z = int(input())
+print("Number T = ")
+number_t = int(input())
+
+print("Result evaluation is:", (number_x > number_y) and (number_z < number_t))
+print("Result evaluation is:", (number_x > number_y) or (number_z < number_t))
+# print("Result evaluation is:", (number_x > number_y) and (number_z < number_t))
