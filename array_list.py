@@ -30,7 +30,7 @@ for j in array_list:
     sum += j
 
 print(sum)
-'''
+
 
 # Sort elements in array (Descending order)
 array_list_sort_descending = []
@@ -67,5 +67,18 @@ for i in range(len(array_list_sort_ascending)):
             
 
 print(array_list_sort_ascending)
+'''
 
-           
+# a list containing all the odd elements of list lst on the screen
+lst = []
+n = int(input("Nhap so phan tu: "))
+
+for i in range(0, n):
+    lst.append(int(input("Nhap cac phan tu: ")))
+
+answer = []
+for j in range(len(lst) + 1):
+    if j % 2 != 0:
+        answer.append(j)
+
+print(answer)
