@@ -41,10 +41,15 @@ for v in range(0, number_n):
     array_list_sort.append(x)
 
 for i in range(len(array_list_sort)):
-    for j in i:
-        if array_list_sort[i] > array_list_sort[j]:
-            temp = array_list_sort[i]
-            array_list_sort[i] = array_list_sort[j]
-            array_list_sort[j] = temp
+    for j in range(len(array_list_sort) - i - 1):
+        if (array_list_sort[j] < array_list_sort[j + 1]):
+            temp = array_list_sort[j]
+            array_list_sort[j] = array_list_sort[j + 1]
+            array_list_sort[j + 1] = temp
+            
 
-print(i)            
+print(array_list_sort)
+   
+
+
+           
