@@ -1,5 +1,6 @@
 # An integer n from the user and displays the sum of numbers from 1 to n on the screen
-## For loop
+## For loop 
+'''
 print("Type n from keyboard: ")
 n = int(input())
 total_for = 0
@@ -22,3 +23,27 @@ while j <= m:
     print(total_while)
 
 print(total_while)
+'''
+
+# Two integers a and b from the user and displays the sum of odd numbers between a and b on the terminal
+## For loop
+print("Type a = ")
+a = int(input())
+print("Type b = ")
+b = int(input())
+total_2 = 0
+if a < b:
+    for i in range(a , b + 1):
+        if i % 2 != 0:
+            total_2 += i
+    print(total_2)
+
+
+## While loop
+total_3 = 0
+while a <= b:
+    if a % 2 != 0:
+        print(a)
+        total_3 += a
+    a = a + 1
+print(total_3)
