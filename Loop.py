@@ -47,7 +47,7 @@ while a <= b:
         total_3 += a
     a = a + 1
 print(total_3)
-'''
+
 
 # Takes a string s from the keyboard and displays characters which are not 'y' in string s on the terminal
 ## First way
@@ -62,3 +62,15 @@ for i in s:
     if i == 'y':
         continue
     print("Current character use 'continue':", i)
+'''
+
+# Takes an integer a from user and displays products of a and numbers from 1 to 7 on the terminal.
+a = int(input())
+j = 1
+total = 1
+while j <= 7:
+    total = a * j
+    print(a, "*", j, "=", total)
+    j = j + 1
+    
+    #print(j)
