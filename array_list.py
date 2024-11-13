@@ -70,15 +70,32 @@ print(array_list_sort_ascending)
 '''
 
 # a list containing all the odd elements of list lst on the screen
-lst = []
+lst_odd = []
 n = int(input("Nhap so phan tu: "))
 
 for i in range(0, n):
-    lst.append(int(input("Nhap cac phan tu: ")))
+    lst_odd.append(int(input("Nhap cac phan tu: ")))
 
 answer = []
-for j in range(len(lst) + 1):
+for j in lst_odd:
     if j % 2 != 0:
         answer.append(j)
+print(answer)
+
+
+# Displays a list containing all element(s) divisible by 5 in the list lst. If there is no such element, print [0]
+list_array = []
+n = int(input("Nhap so phan tu: "))
+
+for i in range(0, n):
+    list_array.append(int(input("Nhap cac phan tu: ")))
+
+answer = []
+for j in list_array:
+    if j % 5 == 0:
+        answer.append(j)
+    
+    if(len(list_array) == 0):
+        answer = 0
 
 print(answer)
