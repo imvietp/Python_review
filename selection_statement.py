@@ -6,3 +6,16 @@ if (your_age < 18):
     print("You are illegal to smoke")
 else:
     print("You are legal to smoke")
+
+
+# If - elif - else
+print("Type your grade: ")
+your_grade = float(input())
+if (your_grade < 5.0):
+    print("You failed the subject")
+elif (your_grade > 5.0 and your_grade < 6.5):
+    print("Average grade")
+elif (your_grade >= 6.5 and your_grade < 8.0):
+    print("Good grade")
+else:
+    print("Excellent grade")
