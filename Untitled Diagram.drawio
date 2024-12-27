@@ -86,11 +86,12 @@
         <mxCell id="vuZeH0igC-iZmNG2mCIm-18" value="Tải thành công ?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="130" y="810" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="vuZeH0igC-iZmNG2mCIm-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vuZeH0igC-iZmNG2mCIm-20">
+        <mxCell id="vuZeH0igC-iZmNG2mCIm-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="1340" as="targetPoint" />
+            <mxPoint x="260" y="1330" as="targetPoint" />
+            <mxPoint x="539.9999999999998" y="870" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="540" y="1340" />
+              <mxPoint x="540" y="1330" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -120,7 +121,7 @@
         </mxCell>
         <mxCell id="vuZeH0igC-iZmNG2mCIm-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vuZeH0igC-iZmNG2mCIm-32">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="1340" as="targetPoint" />
+            <mxPoint x="460" y="1330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vuZeH0igC-iZmNG2mCIm-32" value="Lưu file ảnh/video sau xử lý ?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
