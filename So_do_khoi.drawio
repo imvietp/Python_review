@@ -34,7 +34,7 @@
         <mxCell id="A_s53N-N3gTKxB6Hqlxv-2" value="Lượng tử" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="1290" y="440" width="170" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="A_s53N-N3gTKxB6Hqlxv-4" value="Hiển thị" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="A_s53N-N3gTKxB6Hqlxv-4" value="Hiển thị&lt;div&gt;(Màn hình)&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="1540" y="440" width="170" height="160" as="geometry" />
         </mxCell>
         <mxCell id="A_s53N-N3gTKxB6Hqlxv-6" style="edgeStyle=elbowEdgeStyle;rounded=0;html=1;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;fontSize=18;elbow=vertical;" edge="1" parent="1">
