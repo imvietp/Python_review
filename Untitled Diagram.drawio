@@ -122,7 +122,7 @@
         </mxCell>
         <mxCell id="vuZeH0igC-iZmNG2mCIm-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vuZeH0igC-iZmNG2mCIm-32">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="455" y="1570" as="targetPoint" />
+            <mxPoint x="455" y="1580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vuZeH0igC-iZmNG2mCIm-32" value="Lưu file ảnh/video sau xử lý ?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
