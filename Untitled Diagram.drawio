@@ -26,15 +26,6 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Kiểm tra dữ liệu có hợp lệ không ?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="130" y="290" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
-          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="260" y="1010" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="Repair Lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="200" y="1070" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="vuZeH0igC-iZmNG2mCIm-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-12" target="vuZeH0igC-iZmNG2mCIm-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -90,6 +81,9 @@
         <mxCell id="vuZeH0igC-iZmNG2mCIm-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vuZeH0igC-iZmNG2mCIm-18" target="vuZeH0igC-iZmNG2mCIm-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vuZeH0igC-iZmNG2mCIm-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vuZeH0igC-iZmNG2mCIm-18" target="vuZeH0igC-iZmNG2mCIm-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vuZeH0igC-iZmNG2mCIm-18" value="Tải thành công ?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="130" y="810" width="260" height="100" as="geometry" />
         </mxCell>
@@ -100,13 +94,16 @@
           <mxGeometry x="260" y="670" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vuZeH0igC-iZmNG2mCIm-23" value="Đúng" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="270" y="930" width="60" height="30" as="geometry" />
+          <mxGeometry x="260" y="920" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vuZeH0igC-iZmNG2mCIm-26" value="Sai" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="400" y="585" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vuZeH0igC-iZmNG2mCIm-28" value="Sai" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="400" y="830" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vuZeH0igC-iZmNG2mCIm-29" value="Tải mô hình đã được huấn luyện" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="970" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
